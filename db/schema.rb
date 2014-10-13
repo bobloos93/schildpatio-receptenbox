@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20141013202124) do
 
   create_table "recipes", force: true do |t|
     t.string   "name"
-    t.string   "description"
+    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
