@@ -1,3 +1,15 @@
-<p>Schildpatio receptenboek</p>
-<%= @recipe.name %>
-<%= @recipe.description %>
+<%= render "topbar" %>
+
+<div class="row recipename">Receptnaam</div>
+<div class="row content">
+  <div class="ingredients large-4 columns">
+    <div class="row">
+      <div class="large-12 columns">Personen</div>
+    </div>
+    <div class="row">
+      <div class="large-6 columns">Aantallen</div>
+      <div class="large-6 columns">Ingredientnaam</div>
+    </div>
+  </div>
+  <div class="description large-8 columns"><%= @recipe.description %></div>
+</div>
