@@ -7,6 +7,9 @@ group :development do
   gem 'guard-livereload', require: false
   gem 'spring'  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 end
+
+gem 'rails_12factor', group: :production
+
 # Foundation for CSS
 gem 'foundation-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
