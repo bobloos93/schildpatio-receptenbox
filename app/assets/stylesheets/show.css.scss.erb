@@ -1,0 +1,60 @@
+// Place all the styles related to the show controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$contentwidth: 1000px;
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: image-url('wood-pattern.jpg');
+  background-repeat: repeat-x repeat-y;
+}
+.topbar{
+  height:75px;
+  width:100%;
+  background-color:white;
+  float:left;
+  margin-bottom:10px;
+
+  .topbar-content{
+    width: $contentwidth;
+    margin:auto;
+
+    .topbar-logo{
+      width:75px;
+      height:75px;
+    }
+  }
+}
+
+body.show.recipe{
+
+  .recipename{
+    padding-top: 25px;
+    padding-bottom:20px;
+    width:1000px;
+    margin:auto;
+    text-align:center;
+
+    h1{
+      color:white;
+    }
+  }
+
+  .content{
+    background:white;
+    border-radius:5px;
+    width:$contentwidth;
+    margin:auto;
+
+  }
+
+  .ingredients{
+    background:red;
+    height:100%;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+
+  }
+}
