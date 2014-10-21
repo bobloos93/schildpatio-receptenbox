@@ -1,0 +1,14 @@
+<%= render "topbar" %>
+
+<%= form_for @recipe, method: "POST", :url => { :action => :create} do |f| %>
+  <p>
+    <%=f.text_field :name %>
+  </p>
+  <%= f.fields_for :ingredients do |builder| %>
+    <p>
+    <%= builder.text_field :name %>
+    <%= builder.text_field :amount %><br />
+    </p>
+  <% end %>
+  <p><%= f.submit "Submit" %></p>
+<% end %>

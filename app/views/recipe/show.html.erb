@@ -1,0 +1,19 @@
+<%= render "topbar" %>
+
+<div class="row recipename"><h1><%=@recipe.name%></h1></div>
+<div class="row content">
+  <div class="ingredients large-4 columns">
+    <div class="row">
+      <div class="large-12 columns">Personen</div>
+    </div>
+    <div class="row">
+      <% @recipe.ingredients.each do |ingredient| %>
+      <div class="large-6 columns"><%= ingredient.amount%> <%= ingredient.unit_prefix%></div>
+      <div class="large-6 columns"><%= ingredient.name %></div>
+      <% end %>
+    </div>
+  </div>
+  <div class="description large-8 columns"><%= @recipe.description %></div>
+</div>
+
+<%= link_to 'Create Storyboard', new_recipe_path %>
