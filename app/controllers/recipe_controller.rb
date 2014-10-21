@@ -15,8 +15,6 @@ class RecipeController < ApplicationController
   def create
     @recipe = Recipe.new(recipe_params)
     if @recipe.save
-          raise
-
       redirect_to :action => "show", :id => @recipe.id
     end
   end
