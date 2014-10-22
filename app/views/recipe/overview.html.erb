@@ -1,5 +1,6 @@
 <%= render "topbar" %>
-
-<%@recipes.each do |r| %>
-  <%= r.name %></br>
-<%end%>
+<div class="row overview">
+  <%@recipes.each do |r| %>
+    <%= link_to "#{r.name}", r%></br>
+  <%end%>
+</div>
