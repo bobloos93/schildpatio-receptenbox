@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
-  root :to => 'recipe#overview'
+  root :to => 'recipe#home'
 
   resources :recipe do
     resources :ingredients
   end
+
+  get 'browse' => 'recipe#browse'
+
+
 
 
 

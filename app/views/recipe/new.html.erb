@@ -1,14 +1,26 @@
 <%= render "topbar" %>
 
-<%= form_for @recipe, method: "POST", :url => { :action => :create} do |f| %>
-  <p>
-    <%=f.text_field :name %>
-  </p>
-  <%= f.fields_for :ingredients do |builder| %>
+
+  <div class="content">
+  <%= form_for @recipe, method: "POST", :url => { :action => :create} do |f| %>
     <p>
-    <%= builder.text_field :name %>
-    <%= builder.text_field :amount %><br />
+      Naam van het recept:
+      <%=f.text_field :name%>
     </p>
+      Ingrediënten:
+      <%= f.fields_for :ingredients do |builder| %>
+      <p>
+      Hoeveelheid
+      <%= builder.text_field :amount %>
+      Eenheid (gram, stuks, eetlepels)
+      <%= builder.text_field :unit_prefix %>
+      Ingrediëntnaam
+      <%= builder.text_field :name %>
+      </p>
+    <% end %>
+      Bereidingswijze
+      <%=f.text_field :description%>
+
+    <p><%= f.submit "Submit" %></p>
   <% end %>
-  <p><%= f.submit "Submit" %></p>
-<% end %>
+</div>

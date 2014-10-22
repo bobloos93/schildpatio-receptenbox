@@ -1,5 +1,9 @@
 class RecipeController < ApplicationController
-  def overview
+  def home
+
+  end
+
+  def browse
     @recipes = Recipe.all
   end
 
@@ -9,7 +13,7 @@ class RecipeController < ApplicationController
 
   def new
     @recipe = Recipe.new
-    3.times{ @recipe.ingredients.build }
+    1.times{ @recipe.ingredients.build }
   end
 
   def create
@@ -22,5 +26,5 @@ end
 
 
   def recipe_params
-    params.require(:recipe).permit(:name, ingredients_attributes: [:name, :amount])
+    params.require(:recipe).permit(:name, :description, ingredients_attributes: [:amount, :unit_prefix, :name])
   end

@@ -1,6 +1,12 @@
 <div class="topbar">
   <div class="topbar-content">
-    <%= image_tag('Flatlogo-white.svg', :class => 'topbar-logo') %>
+    <%= link_to image_tag('Flatlogo-white.svg', :class => 'topbar-logo'), root_path %>
     Schildpatio receptenboek
+      <%= link_to 'Nieuw recept', new_recipe_path %>
+      <%= link_to 'Alle recepten bekijken', browse_path %>
+
+
+
   </div>
+
 </div>
