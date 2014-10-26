@@ -1,11 +1,13 @@
 <%= render "topbar" %>
 
-
   <div class="content">
-  <%= form_for @recipe, method: "POST", :url => { :action => :create} do |f| %>
+  <%= nested_form_for @recipe, method: "POST", :url => { :action => :create} do |f| %>
     <p>
       Naam van het recept:
       <%=f.text_field :name%>
+      Categorie:
+      <%= select("recipe", "category_id", Category.all.collect {|c| [ c.name, c.id ] }, {include_blank: '-'}) %>
+
     </p>
       Ingrediënten:
       <%= f.fields_for :ingredients do |builder| %>
@@ -18,9 +20,11 @@
       <%= builder.text_field :name %>
       </p>
     <% end %>
+    <p><%= f.link_to_add "Add a ingredient", :ingredients %></p>
       Bereidingswijze
       <%=f.text_field :description%>
 
     <p><%= f.submit "Submit" %></p>
   <% end %>
 </div>
+

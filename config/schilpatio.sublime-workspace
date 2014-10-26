@@ -1,0 +1,973 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gender",
+				"gender_full"
+			],
+			[
+				"placeho",
+				"placeholder_id"
+			],
+			[
+				"exe",
+				"external_id"
+			],
+			[
+				"so",
+				"sorted_clients_in_columns"
+			],
+			[
+				"caregroup",
+				"caregroupclients"
+			],
+			[
+				"task",
+				"tasks_occurences"
+			],
+			[
+				"client",
+				"client_table_content"
+			],
+			[
+				"caergr",
+				"caregroup_id"
+			],
+			[
+				"fet",
+				"fetch_items"
+			],
+			[
+				"first",
+				"first_task"
+			],
+			[
+				"fir",
+				"first_task_deadline"
+			],
+			[
+				"tra",
+				"transparancylevel"
+			],
+			[
+				"deadlin",
+				"deadline"
+			],
+			[
+				"deadline",
+				"deadlinedate"
+			],
+			[
+				"num",
+				"number_of_groupdelayed"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"arr",
+				"arrayofcolumns"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"Avenir",
+				"AvenirNextLTPro-BoldCnIt"
+			],
+			[
+				"playlist",
+				"playlist"
+			],
+			[
+				"user",
+				"userplaylists"
+			],
+			[
+				"nedap",
+				"nedap_at_lowlands_2014_playlist_exists"
+			],
+			[
+				"playlists",
+				"playlists"
+			],
+			[
+				"spoti",
+				"spotify_user"
+			],
+			[
+				"redirec",
+				"redirect_uri"
+			],
+			[
+				"only",
+				"only_create_zip_path"
+			],
+			[
+				"person",
+				"personal_festival_photos"
+			],
+			[
+				"festival",
+				"personal_festival_photos"
+			],
+			[
+				"messa",
+				"messagetothefuture_total_seconds"
+			],
+			[
+				"mess",
+				"messagetothefuture_total_seconds"
+			],
+			[
+				"not",
+				"not_yet_achieved"
+			],
+			[
+				"badge",
+				"badgeid"
+			],
+			[
+				"last",
+				"last_checkin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/browse.erb",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 591,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/_topbar.html.erb",
+			"settings":
+			{
+				"buffer_size": 300,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application.rb",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/db/schema.rb",
+			"settings":
+			{
+				"buffer_size": 1447,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/assets/stylesheets/show.css.scss.erb",
+			"settings":
+			{
+				"buffer_size": 1006,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/controllers/recipe_controller.rb",
+			"settings":
+			{
+				"buffer_size": 538,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes.rb",
+			"settings":
+			{
+				"buffer_size": 1726,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 79,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/show/new.html.erb",
+		"/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/show/recipe.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/models/client.rb",
+		"/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/db/migrate/20141019175641_delete_amount_from_ingredients.rb",
+		"/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/db/migrate/20141019175507_create_ingredientlists.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/decorators/care_group_render_decorator.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/caregroups/show.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/helpers/application_helper.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/application.css.scss",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/bar.sass",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/basic-elements/loading-spinner.css.scss",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/controllers/caregroups_controller.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/decorators/client_detail_decorator.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/templates/fetch_clients/fetch_client.jst.eco",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/templates/client_details/client_details.jst.eco",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/basic-elements/placeholder.css.scss.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/caregroups/_timeline.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/caregroups/_client_detail_panel.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/decorators/before_task_decorator.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/check_browser_animation_support.js",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/caregroups.css.scss.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/caregroups/_selectors.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/layouts/_header.html.slim",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/deploy/production.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/subscribers/client_subscriber.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/spec/controllers/api/tasque/care_task_series_controller_spec.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/application.js",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/client_details.js.coffee",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/features/support/paths.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/controllers/application_controller.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/controllers/api/tasque/care_task_occurrences_controller.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/spec/controllers/api/tasque/care_task_occurrence_controller_spec.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/mixins/blink-retina-background-image.scss",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/db/seeds.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/spec/models/client_spec.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/buttonInteraction.js",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/routes.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/Gemfile.lock",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/Gemfile",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/care_group_render.js.coffee",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/variables.css.scss",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/_attend.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/controllers/client_details_controller.rb",
+		"/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/controllers/welcome_controller.rb",
+		"/Users/bob.loos/CloudStation/Websites/broodlijstschildpatio.nl/login.php",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/application.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/locales/en.yml",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/layouts/application.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/button_interaction.js",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/caregroups/_timeline",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/update_task_deadline.js",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/_topbar.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/mixins/variables.sass",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/mixins/_variables.sass",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/spec/decorators/care_group_render_decorator_spec.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/stylesheets/_variables.sass",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/templates/user_information_render.js.coffee",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/models/timeline/recurring.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/models/tasks/all_tasks.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/models/timeline/occurrence.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/decorators/user_information_decorator.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/db/schema.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/setTaskbulletColor.js",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/decorators/client_decorator.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/templates/client_detail/client_detail.jst.eco",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/clientDetails.coffee",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/fetchClients.coffee",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/templates/fetchClients/fetchClient.jst.eco",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/_client_table_content.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/layouts/_clienttable.html.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/views/_clientzoom.html.erb",
+		"/Users/bob.loos/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/initializers/inflections.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/images/indiv.svg",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/initializers/secret_token.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/environments/development_stage.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/initializers/filter_parameter_logging.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/models/task.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/initializers/date.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/foundationCustomReveal.js",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/showclient.js.erb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/helpers/team_helper.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/helpers/client_helper.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/db/migrate/20140422125719_create_caregivers.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/db/migrate/20140422125701_create_tasks.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/db/migrate/20140422125538_create_clients.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/db/migrate/20140828142743_change_groupid_to_caregroup_id.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/db/migrate/20140426131645_change_column_name.rb",
+		"/Users/bob.loos/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/config/environments/development.rb",
+		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/assets/javascripts/sendReminder.js.erb",
+		"/Users/bob.loos/Lowlands/lowlands/app/views/reports/_events.html.erb",
+		"/Users/bob.loos/Lowlands/lowlands/app/views/reports/_playlist.html.erb",
+		"/Users/bob.loos/Lowlands/lowlands/app/assets/stylesheets/reports/reports.css.scss",
+		"/Users/bob.loos/Lowlands/lowlands/app/views/layouts/_footer.html.erb",
+		"/Users/bob.loos/Lowlands/lowlands/app/views/reports/_footerreport.html.erb",
+		"/Users/bob.loos/Lowlands/lowlands/app/views/reports/show.html.erb",
+		"/Users/bob.loos/Lowlands/lowlands/config/routes.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/controllers/festival_bucket_controller.rb",
+		"/Users/bob.loos/Lowlands/lowlands/spec/models/bucket_spec.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/admin/bucket.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/views/layouts/application.html.erb",
+		"/Users/bob.loos/Lowlands/lowlands/db/migrate/20140821093742_add_photo_zip_path_to_people.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/models/person.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/models/photo.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/workers/zip_generator.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/views/reports/_photos.html.erb",
+		"/Users/bob.loos/Lowlands/lowlands/app/models/checkin.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/assets/javascripts/statistics_kiosk.js.coffee",
+		"/Users/bob.loos/Lowlands/lowlands/config/initializers/carrierwave.rb",
+		"/Users/bob.loos/Lowlands/lowlands/Gemfile",
+		"/Users/bob.loos/Lowlands/lowlands/app/controllers/statistics_kiosk_controller.rb",
+		"/Users/bob.loos/Lowlands/lowlands/db/migrate/20140813094156_remove_zip_path.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/assets/stylesheets/application.css.scss",
+		"/Users/bob.loos/Lowlands/lowlands/app/assets/javascripts/reports.js",
+		"/Users/bob.loos/Lowlands/lowlands/app/controllers/playlist_controller.rb",
+		"/Users/bob.loos/Lowlands/lowlands/config/application.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/controllers/reports_controller.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/controllers/facebook_controller.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/controllers/kiosk_controller.rb",
+		"/Users/bob.loos/Lowlands/lowlands/db/schema.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/admin/checkins.rb",
+		"/Users/bob.loos/Lowlands/lowlands/config/initializers/merit.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/workers/badge_calculator.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/views/reports/_rewards.html.erb",
+		"/Users/bob.loos/Lowlands/lowlands/app/admin/festival_events.rb",
+		"/Users/bob.loos/Lowlands/lowlands/app/models/festival_event.rb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"config/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"format_telephone_number",
+			"           ",
+			"carrierwave",
+			"amazon",
+			"laceholder_m_",
+			"placeholder_f_",
+			"placeholder_f",
+			" ==",
+			"abbr_months_array",
+			"=\"<%=@",
+			"\n    ",
+			"base_url",
+			"),\n",
+			"border-radius",
+			"dropdown",
+			"focus\\",
+			"focus",
+			"color",
+			"6dbbe4",
+			"rgb(109, 187, 228)",
+			"HEAD",
+			"======",
+			"==",
+			"====",
+			"==",
+			"determine_column",
+			"border-color",
+			"border",
+			"lightness",
+			"border",
+			"dropdown",
+			"drop\n",
+			",\n",
+			"attr",
+			"foundation",
+			"foundatoin",
+			">\n",
+			"});\n",
+			">\n",
+			"        }",
+			"button",
+			"locale",
+			";\n",
+			"circle",
+			"rgb(184,184,184)",
+			"finish_date",
+			">\n",
+			"rgb(212,216,227)",
+			"find_first_task",
+			"currentcolumn",
+			"&:hover",
+			"button",
+			"reveal",
+			"font-size",
+			"roboto",
+			">\n",
+			">",
+			"button",
+			"radius",
+			"body",
+			"first",
+			"font-weight",
+			"body",
+			"font",
+			"asset",
+			"url",
+			"body-font",
+			"border",
+			"column",
+			"row",
+			"menu-item-height",
+			"height",
+			"207",
+			"	\n",
+			"widht",
+			"mixins",
+			"url",
+			"background-image",
+			"hover",
+			"plan",
+			"to_occurences",
+			"recurrence_type",
+			"priority_color",
+			"update",
+			"udpate",
+			"decorate",
+			"short",
+			"client",
+			"currentcolumn",
+			"arrayofcolumns",
+			"retrieveClientinfo",
+			"caregroup_id",
+			"gender",
+			"formal_name",
+			"fullname",
+			"name",
+			"nam,e",
+			"helper",
+			">",
+			"function",
+			"original_task",
+			"database",
+			"column",
+			"updatedeadline",
+			"openclientwindow",
+			"arrayoftasks",
+			"@arrayoftasks = Array.new\n		@number_of_individualdelayed = Array.new\n		@number_of_groupdelayed = Array.new\n		@caregroupclients.each do |sortclientontask|\n			sortclientontask.tasks.by_deadline.each do |task|\n				@arrayoftasks<<task\n				if task.deadline<DateTime.now-1.day\n					@number_of_groupdelayed<<sortclientontask unless @number_of_groupdelayed.include?(sortclientontask)\n	 		  	@number_of_individualdelayed<<sortclientontask unless !@individualclients.include?(sortclientontask) || @number_of_individualdelayed.include?(sortclientontask)\n	 			end\n	 		end\n		end",
+			"puts",
+			"arrayoftasks",
+			"category1array",
+			"stopdate",
+			"firsttask",
+			"column",
+			"client.column",
+			"column",
+			"button",
+			"clientbutton",
+			"clientinformation",
+			"viewselector",
+			"clientavatar",
+			"contenttable",
+			"button",
+			"hidden",
+			"viewselector",
+			" \"",
+			"iconbutton",
+			"userinformationcircle",
+			"USER"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/browse.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/_topbar.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1021,
+								1021
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/db/schema.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1152,
+								1163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/assets/stylesheets/show.css.scss.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/controllers/recipe_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/home.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "schilpatio.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"checin",
+				"app/models/checkin.rb"
+			],
+			[
+				"person",
+				"app/models/person.rb"
+			],
+			[
+				"passenger",
+				"config/deploy/templates/passenger_supervisor.conf.erb"
+			],
+			[
+				"merti",
+				"config/initializers/merit.rb"
+			],
+			[
+				"mertit",
+				"db/migrate/20130425122354_add_registration_time_to_checkins.rb"
+			],
+			[
+				"mode/per",
+				"app/models/person.rb"
+			],
+			[
+				"kio",
+				"app/controllers/kiosk_controller.rb"
+			],
+			[
+				"kioskcontroller",
+				"app/controllers/kiosk_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

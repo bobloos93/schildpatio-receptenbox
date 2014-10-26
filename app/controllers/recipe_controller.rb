@@ -1,6 +1,6 @@
 class RecipeController < ApplicationController
   def home
-
+    @randomrecipes = Recipe.all.shuffle[0..2]
   end
 
   def browse
@@ -26,5 +26,5 @@ end
 
 
   def recipe_params
-    params.require(:recipe).permit(:name, :description, ingredients_attributes: [:amount, :unit_prefix, :name])
+    params.require(:recipe).permit(:name, :category_id, :description, ingredients_attributes: [:amount, :unit_prefix, :name])
   end

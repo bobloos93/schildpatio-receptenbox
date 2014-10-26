@@ -2,4 +2,10 @@
 
 <div class="content">
   <p>HOME VERRY HOME </p>
+<p> Idee voor vandaag</p>
+<% @randomrecipes.each do |r| %>
+  <%= link_to "#{r.name}", r%></br>
+<% end %>
+
+
 </div>

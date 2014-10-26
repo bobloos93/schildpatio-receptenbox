@@ -1,14 +1,16 @@
 <%= render "topbar" %>
 
-<div class="row recipename"><h1><%=@recipe.name%></h1></div>
+<div class="row recipename"><h1><%=@recipe.name%></br><%=@recipe.category.try(:name)%></h1></div>
 <div class="row content">
   <div class="ingredients large-4 columns">
     <div class="row">
       <div class="large-12 columns">Personen</div>
     </div>
     <div class="row">
-      <% @recipe.ingredients.each do |ingredient| %>
-      <div class="large-6 columns"><%= ingredient.amount%> <%= ingredient.unit_prefix%></div>
+      <% @recipe.ingredients.each_with_index do |ingredient,index| %>
+      <div class="large-3 columns amount" id="amount_item_<%=index%>"><%= ingredient.amount%> </div>
+      <div class="large-3 columns" id="unit_prefix_<%=index%>"> <%= ingredient.unit_prefix%></div>
+
       <div class="large-6 columns"><%= ingredient.name %></div>
       <% end %>
     </div>
