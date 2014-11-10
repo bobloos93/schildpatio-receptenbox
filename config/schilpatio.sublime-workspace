@@ -140,18 +140,10 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/browse.erb",
-			"settings":
-			{
-				"buffer_size": 133,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/show.html.erb",
 			"settings":
 			{
-				"buffer_size": 591,
+				"buffer_size": 752,
 				"line_ending": "Unix"
 			}
 		},
@@ -172,10 +164,34 @@
 			}
 		},
 		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/Gemfile",
+			"settings":
+			{
+				"buffer_size": 1530,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 745,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/new.html.erb",
 			"settings":
 			{
-				"buffer_size": 626,
+				"buffer_size": 829,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/browse.erb",
+			"settings":
+			{
+				"buffer_size": 133,
 				"line_ending": "Unix"
 			}
 		},
@@ -199,7 +215,7 @@
 			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/controllers/recipe_controller.rb",
 			"settings":
 			{
-				"buffer_size": 538,
+				"buffer_size": 597,
 				"line_ending": "Unix"
 			}
 		},
@@ -215,7 +231,7 @@
 			"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/home.html.erb",
 			"settings":
 			{
-				"buffer_size": 79,
+				"buffer_size": 186,
 				"line_ending": "Unix"
 			}
 		}
@@ -264,6 +280,7 @@
 	},
 	"file_history":
 	[
+		"/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/browse.erb",
 		"/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/show/new.html.erb",
 		"/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/show/recipe.html.erb",
 		"/Users/bob.loos/ioserver_scripts/ons-together/task-monitor/app/models/client.rb",
@@ -390,8 +407,7 @@
 		"/Users/bob.loos/Lowlands/lowlands/config/initializers/merit.rb",
 		"/Users/bob.loos/Lowlands/lowlands/app/workers/badge_calculator.rb",
 		"/Users/bob.loos/Lowlands/lowlands/app/views/reports/_rewards.html.erb",
-		"/Users/bob.loos/Lowlands/lowlands/app/admin/festival_events.rb",
-		"/Users/bob.loos/Lowlands/lowlands/app/models/festival_event.rb"
+		"/Users/bob.loos/Lowlands/lowlands/app/admin/festival_events.rb"
 	],
 	"find":
 	{
@@ -556,52 +572,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 11,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/browse.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118,
-								118
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/show.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 591,
+						"buffer_size": 752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								591,
-								591
+								568,
+								568
 							]
 						],
 						"settings":
@@ -614,11 +602,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/_topbar.html.erb",
 					"semi_transient": false,
 					"settings":
@@ -642,11 +630,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "application.rb",
 					"semi_transient": false,
 					"settings":
@@ -658,8 +646,8 @@
 						"selection":
 						[
 							[
-								1021,
-								1021
+								303,
+								303
 							]
 						],
 						"settings":
@@ -672,24 +660,80 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/new.html.erb",
+					"buffer": 3,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/Gemfile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 626,
+						"buffer_size": 1530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								23
+								873,
+								873
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/assets/javascripts/application.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/new.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
 							]
 						],
 						"settings":
@@ -702,11 +746,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
+					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/browse.erb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/db/schema.rb",
 					"semi_transient": false,
 					"settings":
@@ -718,8 +790,8 @@
 						"selection":
 						[
 							[
-								1152,
-								1163
+								1435,
+								1435
 							]
 						],
 						"settings":
@@ -732,11 +804,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/assets/stylesheets/show.css.scss.erb",
 					"semi_transient": false,
 					"settings":
@@ -762,24 +834,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/controllers/recipe_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 538,
+						"buffer_size": 597,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
-								65
+								102,
+								102
 							]
 						],
 						"settings":
@@ -792,11 +864,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "routes.rb",
 					"semi_transient": false,
 					"settings":
@@ -822,24 +894,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "/Users/bob.loos/CloudStation/Rails_Applications/schildpatio-receptenbox/app/views/recipe/home.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 79,
+						"buffer_size": 186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								79,
-								79
+								93,
+								93
 							]
 						],
 						"settings":
@@ -851,7 +923,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
